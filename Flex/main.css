@@ -24,7 +24,7 @@ body {
     height: 1300px;
     width: 1800px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap; /* 세로, 가로 관여x 단지 줄 바꿈을 의미한다. */
     align-items: center; /*교차축*/
     justify-content: flex-start;/* 기본축 중요한 것은 flex-direction에 관점이 달라진다는 것이다. 수평축*/
@@ -65,7 +65,6 @@ body {
     margin: 10px;
     width: 300px;
     height: 300px;
-    order: 1;
 }
 
 .item-5 {
@@ -84,5 +83,4 @@ body {
     border: 5px solid black;
     margin: 10px;
     width: 350px;
-    order:-6;
 }
