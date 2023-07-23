@@ -1,0 +1,62 @@
+CSS SizeAndUnit
+
+pixel => px
+percentages => %
+
+root em => rem, 폰트 크기를 나타내는 단위
+em => em, 폰트 크기를 나타내는 단위
+
+viewprot height => vh, 뷰포트의 높이
+viewport width => vw, 뷰포트의 넓이
+★ 현재 보여지고 있는 웹 페이지, 모바일 페이지
+★ 동적인 요소이다.
+
+★ padding 컨텐츠와 한계선의 거리
+★ margin content+pdding+border의 바같쪽 공간
+
+Absolute Lengths
+px => 사용자가 창의 크기를 줄이거나 설정을 바꿔도 폰트사이즈 20px는 바뀌지 않는다. 
+정적 이즈
+
+Viewport Lengths 
+vh, vw, vmin, vmax => 뷰포트에 따라 동적으로 크기를 조정할 때 사용한다.
+
+Font-Relative Lengths
+rem, em
+
+Principal
+
+1 - %단위는 요소에 가장 먼저 적용한다.
+% 단위를 사용하는 요소의 기준점을 컨테이닝 블록이라고 한다.
+컨테이닝 블록은 해당 요소의 position 속성에 따라 달라진다.
+position:fixed라는 선언이 적용된 요소에 대해서는 그 백분율을 사용했을 떄 컨테이닝 블록이 뷰포트이다. 
+
+2 - 요소에 position : absolute를 적용하면 조상의 컨텐츠, 그리고 안족 여백을 기준으로 %가 작동한다.
+absolute인 요소의 컨테이닝 블록은 position이 정적 값이 아닌 가장 인접한 조상이 되는 것이다.
+
+3. 요소에 position:static, position:relative 적용하면 가장 인접한 조상의 컨텐츠가 컨테이닝 블락이 된다.
+
+
+백드롭
+=> 전체 웹사이트를 덮는데 모든 요소를 통틀어 맨 위에 있어야 한다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
