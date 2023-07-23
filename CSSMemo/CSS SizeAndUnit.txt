@@ -13,6 +13,7 @@ viewport width => vw, 뷰포트의 넓이
 
 ★ padding 컨텐츠와 한계선의 거리
 ★ margin content+pdding+border의 바같쪽 공간
+★ position의 기본값은 static이다.
 
 Absolute Lengths
 px => 사용자가 창의 크기를 줄이거나 설정을 바꿔도 폰트사이즈 20px는 바뀌지 않는다. 
