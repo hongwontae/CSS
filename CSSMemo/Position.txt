@@ -11,7 +11,7 @@ position 속성은 html 코드에서 자동으로 기본값이 적용된다. (po
 포지션은 top,bottom,left,right와 함께 사용된다.
 
 
-기본 속성은 position:static이고 이 속성일 대는 top,b,l,r 다 무시한다.
+기본 속성은 position:static이고 이 속성일 대는 t,b,l,r 다 무시한다.
 position 속성을 사용할 때는 대상이 블록 레벨 요소이든, 인라인 요소이든 상관없이 적용된다.
 
 position : fixed
@@ -25,6 +25,77 @@ fixed는 뷰포트을 기준으로 삼고 t,b,l,r을 사용한다. 이 때 html�
 
 mainPage의 사진은 문서의 흐름을 맞췄다. 다른 요소 위에 배치된 것이었다.
 package 페이지에는 이미지가 웹사이트 contents 뒤에 배치되야 한다.
+
+position relative => 기본 위치를 기준으로 설정한다.
+
+position absolute => 부모 요소를 기준으로 움직인다. 부모 요소중에 relative, fixed, absolute 중 하나라도 있으면 이에 따라 움직인다.
+자세히 말하자면 position 속성이 static이 아닌 첫 번쨰 상위 요소가 배치 기준이 되는 것이다.
+관례는 부모 포지션의 position을 relative로 잡는 것이다.
+
+position : sticky
+브라우저 화면을 스코롤링할 때 효과가 나타난다.
+
+
+z-index
+기본값은 auto(0)이다./ 3차원 속성이라고 생각하면 된다.
+이 값은 웹사이트 요소에 대해 y 축의 관점에서 시작점을 정의한다.
+z-index가 다른 요소보다 값이 높다면 먼저 나오고, 적다면 뒤에 나오는 로직이다.
+
+배경 이미지에 고정된 위치를 추가하면 요소가 문서 대열에서 제거되어 기존 요소들 위에 표시된다.
+
+동일한 z-index 값을 갖는 두 위치 요소가 있을 때는 html 파일에서의 순서에 의해 요소의 배치가 결정된다.
+
+★ z-index 없을 때 요소 간 상대적 깊이
+기본적으로는 html문서 상 나중에 나오는 요소가 먼저 나오는 요소보다 위로 올라오도록 구성되어진다.
+but position에 따라 달라질 수 있다. 만약 첫 번쨰 요소가 position : relative를 가지고 있다면 첫 요소가 위로 올라온다.
+
+요약하자면
+1. position 속성이 static이 아닌 요소는 무조건 position 속성이 static인 요소 위로 올라옵니다.
+2. position 속성이 static인 요소 간에는 HTML 문서 상에서 나중에 나오는 요소가 먼저 나오는 원소 위로 올라옵니다.
+3. position 속성이 relative나 absolute, fixed, sticky인 요소 간에는 HTML 문서 상에서 나중에 나오는 요소가 먼저 나오는 원소 위로 올라옵니다. => 일반적인 상황을 따른다.
+
+★★ z-index가 있을 때 요소 간 상대적 깊이
+z-index를 사용하면 기본적인 규칙을 무시하고 요소를 앞에 나오게 할 수 있다.
+속성값이 높은게 먼저 나온다.
+
+position : static => z-index:auto(1)이 고정이다. position:static은 기본 값이다.
+
+문서대열에서 이탈되었다??  
+relative를 사용하면 부모 영역 밖으로 내보낼 수 도 있다.
+
+overflow : hidden
+=> 부모 영역에서 벗어나는 것을 방지한다. 부모 영역에서 해야한다.
+=> 예외가 존재한다. 만약 부모가 body라면 overflow가 작동하지 않는다.
+
+★★★ position : absolute
+요소에 position : absolute만 있고 나머지 사항은 일반적이라면 그 요소는 문서 대열에 이탈하여 자리를 잡는다. 자리는 기존의 자리를 갖는다. offset 속성이 auto를 받기 떄문이다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

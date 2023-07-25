@@ -7,10 +7,6 @@ body {
     margin: 0;
 }
 
-html{
-    margin: 30px;
-}
-
 
 .main-header {
     width: 100%;
@@ -19,6 +15,7 @@ html{
     padding: 8px 16px;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .main-header > div {
