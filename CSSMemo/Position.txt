@@ -70,6 +70,20 @@ overflow : hidden
 ★★★ position : absolute
 요소에 position : absolute만 있고 나머지 사항은 일반적이라면 그 요소는 문서 대열에 이탈하여 자리를 잡는다. 자리는 기존의 자리를 갖는다. offset 속성이 auto를 받기 떄문이다.
 
+positon : sticky
+relative와 fixed 배치의 조합
+요소와 뷰포트의 간격을 설정하고 설정된 간격에 도달하면 요소는 고정된 것처럼 동작하는 로직이다.
+만약 해당 요소가 부모 요소 컨텐츠의 끝부분에 도달하면 고정을 멈춘다.
+=> 요소의 고정시점은 뷰포트를 따르지만 고정이 끝나는 시점은 부모를 따른다.
+sticky는 부모요소에 position property가 없어도 된다.
+
+
+StackingContext
+z-index는 부모요소의 이상으로 뻗어나갈 수 없다.
+=> 자식 요소의 스택 동작을 정의한다. 
+if z-index의 자식요소가 다른 부모의 z-index 값보다 높아도 자식요소의 컨텍스트에서만 활동한다.
+
+
 
 
 
