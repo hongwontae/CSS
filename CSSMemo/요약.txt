@@ -1,2 +1,0 @@
-flex Container의 width를 주지 않으면 row는 넓이를 다 갖는다.
-=> 그러면 felx container 자체의 center를 맞추기가 쉽다.

@@ -6,6 +6,9 @@ Flex Container 내부에는 중첩 요소가 들어간다. 요소는 자식이�
 부모 요소에 display : flex, display : inline => flex 컨테이너 생성
 컨테이너의 내부의 요소들은 flex 항목이 된다.
 
+flex Container의 width를 주지 않으면 row는 넓이를 다 갖는다.
+=> 그러면 felx container 자체의 center를 맞추기가 쉽다.
+
 그러므로 Flex의 속성들은 컨테이너에 적용하는 속성과 아이템에 적용하는 속성으로 나뉜다.
 부모요소에 Flex-Container을 적용했을 때는 가로 방향 배치, 자식이 가진 내용물의 width만큼 넓이
 차지하고 height은 컨테이너 높이만큼 늘어난다.
