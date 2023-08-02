@@ -1,8 +1,8 @@
-.container {
+/* .container {
     margin: 20px;
     display: grid;
     grid-template-columns: 200px 2fr 20% 1fr;
-    /* grid-template-rows: 5rem 2.5rem; */
+    grid-template-rows: 5rem 2.5rem;
     grid-gap: 10px;
 }
 
@@ -24,4 +24,77 @@
 
 .el5{
     background-color: darkred;
+} Grid 219 css*/
+
+
+.container {
+    margin: 20px;
+    display: grid;
+    height: 200px;
+
+    /* grid-template-columns: 200px 5rem 20% auto; */
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-template-rows: 5rem minmax(20px,200px) 100px;
+    /* 높이값을 설정하지 않았다. auto를 주면 2번째의 값은 컨텐츠 높이만큼 갖는다. */
+    grid-gap: 10px;
 }
+
+.el1 {
+    background: rgba(255, 154, 72, 0.5);
+}
+
+.el2 {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.el3 {
+    background: rgba(0, 128, 0, 0.5);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.el4 {
+    background: rgba(0, 4, 255, 0.5);
+}
+
+.el5{
+    background-color: darkred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
