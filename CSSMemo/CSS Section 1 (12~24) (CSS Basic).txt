@@ -1,0 +1,9 @@
+1. inline Style
+HTML의 tag의 style 속성을 사용하면 된다.
+<section style="backgroung : red; color : black"></section>
+=> 인라인를 통해 여러개의 css를 적용시키려면 세미콜론( ; )으로 구분하면 된다.
+
+=> 가독성이 떨어지고 강제로 CSS 최우선순위이기 떄문에 권장하지 않는다.
+
+
+2. 
