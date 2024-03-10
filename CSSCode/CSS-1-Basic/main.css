@@ -1,8 +1,9 @@
-section {
-    background-color: #ff1b68;
+div p{
+    color : red;
 }
 
-h1{
-    color: white;
-    font-family: "Kode Mono", monospace;
+
+#kkk{
+    color : blue
 }
+
