@@ -1,0 +1,64 @@
+1. CSS 박스 모델
+CSS는 HTML 요소를 인식할 떄 박스로 인식한다.
+해당 박스는 두 가지 개념으로 나뉘는데 inline 박스와 Block 박스이다.
+
+일반적인 태그는 1 .content가 존재하고 2. content와 테두리 사이의 공간 padding, 3. 바같쪽 여백 margin이 존재한다.
+margin은 브라우저에 의해 default 값이 항상 존재한다.
+
+
+2. 여백 상쇄 이해 및 바깥쪽 여백 기본값 제거
+Browser에 의해 body의 margin과 display : block이 적용되어 있다.
+
+여백 상쇄 => 두 개의 박스가 밀접했을 떄 각자의 여백을 따로 가지는 것이 아니라 더 큰 값이 작은 값을 잡아먹는다.
+
+h1,h2 같은 요소들은 독자적으로 margin을 갖는다. => default 값으로 margin을 갖는다. (위, 아래)
+
+
+3. 축약 프로퍼티
+border => border-width, border-style, border-color 등이 존재한다.
+축약 => border : 2px black solid 처럼 축약해서 사용가능
+
+margin : 5px 10px, 5px, 10px (top, right, bottom, left)
+margin : top, bottom
+margin : All
+=> padding도 이를 따른다.
+
+
+4. height and width
+인라인 요소와 블록 요소에 따라 다르게 적용된다.
+
+인라인 요소는 height고 width의 효과 적용이 되지 않는다.
+
+블록 요소
+auto 값으로 width나 height이 100%로 적용되어 있다.
+=> 이 떄 width는 부모 요소 width 전체/ height은 컨텐츠 크기만큼
+
+단위를 사용하면 단위 값을 따라간다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

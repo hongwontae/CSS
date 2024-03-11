@@ -1,0 +1,17 @@
+.span{
+    height: 100px;
+    width: 1000px;
+    background-color: red;
+}
+
+.div{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+}
+
+h2{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}

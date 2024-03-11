@@ -42,7 +42,7 @@ Attribute => [disabled] {colror : red}
 5. Cascade and 명시도
 CSS 선택자들의 우선순위 => 명시도
 상속 < 속성 < *(전체 선택자) < tagElement < class < id < inline
-같은 레벨이라면 밑에 있는 css가 선택된다.
+같은 레벨이라면 밑에 있는 css가 선택된다. => 위에서 아래로 파싱하기 떄문이다.
 
 cascading
 여러 스타일이 같은 요소에 적용될 수 있음을 의미하는 말
