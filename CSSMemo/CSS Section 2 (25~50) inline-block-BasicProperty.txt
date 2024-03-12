@@ -36,6 +36,40 @@ auto 값으로 width나 height이 100%로 적용되어 있다.
 단위를 사용하면 단위 값을 따라간다.
 
 
+5. box-sizing
+box-sizing은 요소의 height와 width의 적용 방법을 의미한다.
+content-box => 요소의 height과 width을 적용할 때 컨텐츠만 적용된다. padding과 border는 각자의 값이 존재한다.
+border-box => 요소의 height과 width을 적용할 떄 컨텐츠+padding+border을 합친 값이다.
+
+상속을 통해 자식들을 적용시킬 수 없다. => 속성 값으로 content-box 지정되었기 때문이다.
+=> * 전체 선택자를 사용해서 구현한다. => 전체 선택자 > 속성 > 상속의 우선순위 떄문에 그렇다.
+
+
+6. display
+display : block => inline 요소를 block 요소로 바꾼다.
+display : inline => block 요소를 inline 요소로 바꾼다.
+display : none => 요소를 문서대열에서 이탈시킨다.
+display : inline-block => 요소는 반인반블이 된다. => 나란히 나열되지만 각자 margin과 padding을 가질 수 있다.
+
+
+padding 1px => 578x71
+none padding => 580 x 55
+=> padding에 값을 주면 높이 값이 먼저 올라가고 다음으로 넓이가 증가한다.
+
+display : none
+=> 문서 대열이 없고 다른 요소들이 해당 공간을 차지할 수 있다. => DOM에서 사라진다.
+visibility : hidden => 요소를 숨기지만 다른 요소들이 해당 공간을 차지할 수 없다. => DOM에서 사라지지 않는다.
+
+
+7. 블록 요소/ 인라인 요소
+블록 요소 => width(100%)/ 쌓이며 렌더링된다.
+인라인 요소 => 패딩, 마진 의미없다/ 높이 넓이 의미없다(컨텐츠 크기 만큼 가진다.)/ 옆에 쌓인다.
+
+
+
+
+
+
 
 
 
