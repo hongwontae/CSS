@@ -1,11 +1,7 @@
-.divP{
-    width: 400px;
-    height: 400px;
-    background-color: red;
+body{
+    margin: 0px;
 }
 
-.div{
-    height: 100px;
-    width: 50%;
-    background-color: burlywood;
+.span1{
+    margin-top: 1px;
 }
