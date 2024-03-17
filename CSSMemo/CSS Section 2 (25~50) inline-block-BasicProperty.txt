@@ -81,17 +81,17 @@ text-decoration => text에 효과를 주는 CSS (baseline, wave, etc...)
 ex) a태그에 baseline을 none으로 => 깔끔한 효과
 
 vertical-align
-inline/ inline-block 요소 수직 정렬할 떄 사용한다.
-middle => 직접 부모의 중앙에 위치
-bottom => 직접 부모의 하단에 위치
-top => 직접 부모의 상단에 위치
-etc... 
+=> 부모의 컨텐츠 인라인에 영향을 많이 받는다.
+=> ex) p태그안에 span 태그가 있고 p 태그는 문자를 갖으면 p 태그의 문자Size(다른 컨텐츠일 수 도 있다.)가 부모가 되는 것이다.
+=> top : 부모 상단
+=> middle : 부모 요소 중앙
+=> bottom : 부모 요소 하단
 
 
 10. a 태그 스타일링
 a태그의 CSS 속성이 상속보다 높은 우선순위를 가지기 떄문에 부모주는 것은 의미없다.
 => 직접 타켓해야 한다.
-text-decoration의 경우 underline이 default이기 떄문에 직접  타켓한다.
+text-decoration의 경우 underline이 default이기 떄문에 직접 타켓한다.
 
 
 11. 의사 클래스(가상 클래스)
@@ -117,7 +117,7 @@ css가 같다면 그룹을 묶어서 규정해도 된다.
 }
 
 
-13. font-weigjt/ border
+13. font-weight/ border
 font-weight => 글씨 두꺠를 의미한다.
 border => content와 padding을 덮는다.
 
