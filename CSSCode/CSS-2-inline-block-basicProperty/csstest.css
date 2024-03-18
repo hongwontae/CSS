@@ -1,14 +1,27 @@
-.p1{
-    margin: 10px;
-    padding: 10px;
-    background-color: bisque;
-    font-size : 23px;
-    height: 200px;
-    
+.divP{
+    width: 100%;
+    background-color: burlywood;
+    padding: 8px 16px;
 }
 
-.p2{
+.div1{
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: top;
+}
+
+.div2{
+    display: inline-block;
+    font-size: 35px;
+}
+
+/* .div3{
+    display: inline-block;
+    vertical-align: bottom;
+} */
+
+a{
+    text-decoration: none;
+    vertical-align: top;
     font-size: 15px;
-    vertical-align: baseline
 }
-
