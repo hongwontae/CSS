@@ -51,6 +51,7 @@ display : inline => block 요소를 inline 요소로 바꾼다.
 display : none => 요소를 문서대열에서 이탈시킨다.
 display : inline-block => 요소는 반인반블이 된다. => 나란히 나열되지만 각자 margin과 padding을 가질 수 있다.
 
+display는 상속되는 개념이 아니다.
 
 padding 1px => 578x71
 none padding => 580 x 55
