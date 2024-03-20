@@ -1,5 +1,5 @@
 1. vertical-align
-정의 : inline과 inline-block 요소만 적용되고 같은 라인의 문자 중에 가장 큰 font-size에 해당하는 요소을 기준으로 세로 정렬한다.
+정의 : inline과 inline-block 요소만 적용되고 형제 요소 중 가장 높이가 높은 것을 기준으로 세로 정렬한다.
 
 특징
 1-1. 기준이 되는 문자가 없다면 그 자체로는 의미가 없다.
@@ -37,6 +37,25 @@ ex) rgb(0,0,0) => 검은색
 
 특징
 5-1. 0은 0% 불투명도, 1은 100% 불투명을 의미한다.
+
+
+6. border-radius
+정의 : border의 모서리의 형태를 변형시킨다.
+
+특징
+6-1. 값이 하나라면 모든 모서리에 radius 적용
+6-2. 속성 각각 정의 => border-top-left-radius /border-top-right-radius/ border-bottom-right-radius/ border-bottom-left-radius
+
+
+7. list-style
+정의 : <li>의 속성을 제어한다.
+
+특징
+7-1. list-style-type: 리스트 마커의 종류를 설정한다. 기본 값은 ‘disc’
+7-2. list-style-image: 리스트 마커를 이미지로 설정한다.
+7-3. list-style-position: 리스트 마커의 위치를 설정한다. ‘inside’ 또는 ‘outside’ 값을 가질 수 있다.
+(list-style : none => li의 모양을 제거한다.)
+
 
 
 
