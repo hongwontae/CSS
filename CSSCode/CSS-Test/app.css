@@ -1,0 +1,31 @@
+main{
+    border: 2px solid black;
+    height: 500px;
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+}
+
+.div1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.div2{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.div3{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.div4{
+    display: block;
+}
