@@ -22,8 +22,27 @@
 특징
 3-1. default로 auto, 0을 갖는다.
 3-2. position : static이라면 z-index 적용되지 않는다.
-3-3. z-index의 값이 같다면 HTML 파일에서의 순서에 의해 요소의 배치가 결정된다.
+3-3. position이 적용된 요소는 position이 적용되지 않은 요소보다 z-index 우선순위가 높다.
+3-4. z-index의 값이 같다면 HTML 파일에서의 순서에 의해 요소의 배치가 결정된다.
 => div 앞에 section이 존재할 떄 div와 section이 겹치면 section이 div위에 표시된다.
+
+
+4. position : relative
+정의 : 기존 위치에서 LRTB을 계산하여 이동한다.
+
+특징
+4-1. relative가 적용되고 자리를 벗어나도 다음 요소는 기존 요소를 따라 배치되는 것이 
+아닌 relative가 적용되기 전에 위치한다.
+
+
+5. position : absolute
+정의 : 가장 가까운 위치 지정 부모를 기준으로 절대적으로 움직인다
+
+특징
+5-1. absolute을 쓸 경우 부모에게 position : relative을 부여하면 된다.
+
+
+
 
 
 
