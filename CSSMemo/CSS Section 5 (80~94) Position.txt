@@ -32,14 +32,22 @@
 
 특징
 4-1. relative가 적용되고 자리를 벗어나도 다음 요소는 기존 요소를 따라 배치되는 것이 
-아닌 relative가 적용되기 전에 위치한다.
+아닌 relative가 적용되기 전에 위치한다. => 문서 흐름을 지킨다.
 
 
 5. position : absolute
 정의 : 가장 가까운 위치 지정 부모를 기준으로 절대적으로 움직인다
 
 특징
-5-1. absolute을 쓸 경우 부모에게 position : relative을 부여하면 된다.
+5-1. absolute을 쓸 경우 부모에게 position : relative을 부여하면 부모를 기준으로 움직인다.
+5-2. absolute을 쓸 경우 position이 적용된 부모가 없다면 body 요소를 기준으로 삼는다.
+5-3. 문서 흐름을 읽어버린다. => 다음 요소의 배치를 신경쓰지 않고 배치된다는 것이다.
+5-4. fixed와 동일하게 width와 height을 주지 않았을 떄는 컨텐츠 만큼 차지한다
+
+
+** 문서 흐름 무시 => absolute, fixed
+** 문서 흐름 유지 => static, relative
+
 
 
 
