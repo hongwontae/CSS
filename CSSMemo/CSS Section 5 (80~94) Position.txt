@@ -49,6 +49,40 @@
 ** 문서 흐름 유지 => static, relative
 
 
+6. overflow
+정의 : 자식 요소가 부모 요소의 범위를 넘어갔을 떄 자식 요소를 컨트롤하는 속성
+
+특징
+6-1. hidden => 숨긴다./ scroll => 스크롤링...
+6-2. body가 부모일 떄 자식 요소의 넘침을 막고 싶다면 html 요소와 body 요소 둘 다 overflow 값을 줘야한다.
+
+
+7. sticky
+정의 : 최초 relative처럼 동작하고 스크롤링 지정 지점에서 요소를 고정시킨다.
+
+특징
+7-1. 부모 혹은 조상의 overflow 속성을 추가하면 sticky는 사용하지 못한다.
+7-2. 뷰포트와의 거리를 명시하지 않으면 작동하지 않는다.
+7-3. 직속 부모의 height이 없다면 작동하지 않는다.
+7-4. 직속 부모의 height만큼 fixed처럼 행동하고 그 다음 높이부터는 일반 속성처럼 행동한다.
+
+
+8. Stack Context
+정의 : 부모의 z-index와 자식의 z-index는 상관관계가 존재한다.
+
+특징
+8-1. 부모의 z-index가 동일 레벨의 z-index보다 낮으면 자식의 z-index가 몇이든 간에
+    동일 레벨의 z-index을 넘길 수 없다.
+
+
+9. position 기타 속성
+9-1. absolute와 fixed 속성은 문서대열을 이탈해버린다./ relative와 static, sticky는 문서대열을 지킨다.
+9-2. 부모 요소가 position을 받고 자식 요소는 position이 없을 떄 자식 요소는 부모요소 안에 존재해야 한다.
+
+
+
+
+
 
 
 
