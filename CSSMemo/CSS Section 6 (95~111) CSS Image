@@ -60,3 +60,11 @@ background-size, backgorund-repeat, backgorund-origin, backgorund-clip, backgoru
 url position/size, repeat, origin => 이렇게 설정
 
 
+7. img tag
+정의 : 사진을 넣을 수 있는 프로퍼티
+
+특징
+7-1. 컨테이너에서 높이를 지정해도 자식 이미지 요소에는 영향을 받지 않는다.
+(img 태그로 사진을 불러오면 원본 이미지의 높이와 너비가 적용되어 문서에 삽입된다. => 주변 요소가 어떻든..)
+7-2. img 태그를 선택해서 width와 height을 px, %(block일 경우)로 부여하면 적용된다.
+(부모가 인라인일 경우 %을 적용해도 원본 이미지 크기로 나온다.)
