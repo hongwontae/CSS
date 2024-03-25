@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.container{
+/* .container{
     width: 900px;
     height: 900px;
     margin: auto;
@@ -10,5 +10,16 @@
     background: url("freedom.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+} */
+
+.container2{
+    background: url("customer-1.jpg");
+    width: 900px;
+    height: 900px;
+    border: 3px solid red;
+    background-origin:border-box;
+    /* background-position: right 100% bottom 100% ; */
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
