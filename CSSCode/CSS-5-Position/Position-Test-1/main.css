@@ -2,38 +2,35 @@
   box-sizing: border-box;
 }
 
-html {
-    background: #b3b3b3;
-    padding: 15px;
-    border: 5px solid white;
-    margin: 15px;
-    height: 2000px;
-    overflow: auto;
+.parent{
+  border: 2px solid black;
+  width: 1000px;
+  height: 1000px;
+  position: relative;
 }
 
-body {
-    background: #fa923f;
-    padding: 20px;
-    border: 5px solid black;
-    margin: 0;
-    overflow: auto;
-  }
-  
-.parent {
-    background: white;
-    padding: 20px;
-    border: 5px solid black;
-    margin: 0;
-    position: relative;
-    top: 200px;
-  }
-  
-.parent div {
-    background: rgb(105, 105, 109);
-    color: white;
-    padding: 10px;
-    border: 5px solid black;
-    margin: 10px;
+div{
+  color: chartreuse;
 }
 
+.child-1{
+  width: 200px;
+  height: 200px;
+  background-color: beige;
+  position: relative;
+}
 
+.child-2{
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  position: absolute;
+  left : 80%;
+}
+
+.child-3{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+}
