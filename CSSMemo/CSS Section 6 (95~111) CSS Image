@@ -61,10 +61,51 @@ url position/size, repeat, origin => 이렇게 설정
 
 
 7. img tag
-정의 : 사진을 넣을 수 있는 프로퍼티
+정의 : 사진을 넣을 수 있는 프로퍼티/ 
 
 특징
-7-1. 컨테이너에서 높이를 지정해도 자식 이미지 요소에는 영향을 받지 않는다.
-(img 태그로 사진을 불러오면 원본 이미지의 높이와 너비가 적용되어 문서에 삽입된다. => 주변 요소가 어떻든..)
-7-2. img 태그를 선택해서 width와 height을 px, %(block일 경우)로 부여하면 적용된다.
-(부모가 인라인일 경우 %을 적용해도 원본 이미지 크기로 나온다.)
+7-1. img 태그는 inline property이다.
+7-2. img 태그의 기본값은 원본의 width와 height을 나타낸다.
+7-3. img의 부모가 display inline-block이고 width와 height을 가질 떄 img 태그는 %를 통해 w-h을 가질 수 있다.
+
+
+8. 선형 그라데이션
+정의 : background에 선형적으로 그라데이션 효과를 넣을 수 있는 속성
+
+특징
+8-1. backgorund 속성에 linear-gradient()
+8-2. (red,blue) => red가 내려오면서 blue로 변함
+8-3. (to left bottom, blue, red) => 오른쪽 상단 블루 => 왼쪽 하단 레드로 변함
+=> etc.. 많은 속성값을 줄 수 있다.
+
+
+9. 원형 그라데이션
+정의 : backgorund에 원형적으로 그라데이션 효과를 넣을 수 있는 속성이다.
+
+특징
+8-1. redial-gradient()
+8-2 default는 타원형 모양처럼 번져나간다. (첫 번쨰 인수로 circle을 줘서 원 모형 갖출 수 있다.)
+8-3. (red, blue) => red원에서 blue 배경으로 번져나감
+8-4. (circle 20px at top left(x,y축이다. %로 사용가능), red blue) 
+=> circle은 20px, 위치는 맨 위+왼, 색깔은 red=>blue
+=> etc... 많은 속성값을 줄 수 있다.
+
+
+10. filter
+정의 : CSS가 사전에 정의한 프로퍼티을 통해 요소의 컨텐츠나 모양을 변경할 수 있는 프로퍼티
+
+
+11. SVG(Scalable Vector Graphis)
+정의 : 벡터 기반 그래픽을 XML 형식으로 정의하는 것을 의미한다.
+
+특징
+11-1. <svg width="" height=""> svg 그래픽... </svg>
+etc.. 다른 개념이다.
+
+
+12. background 축약
+background : [image] [repeat] [postion]/[size]
+=> position과 size는 set이다. 
+
+
+
