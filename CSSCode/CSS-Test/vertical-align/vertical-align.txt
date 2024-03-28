@@ -1,0 +1,2 @@
+1. middle Property을 사용하려면 
+같은 레벨의 가장 높은 height을 갖는 요소도 middle을 줘야한다.
