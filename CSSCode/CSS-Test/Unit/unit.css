@@ -1,7 +1,17 @@
 body{
-    background-color: black;
+    background-color: brown;
     color: white;
     font-size: 10px;
+    height: 1500px;
+    margin: 0;
+}
+
+.backdrop{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 70vmax;
+    height: 60vmax;
+    top: 0;
 }
 
 .div-c{
