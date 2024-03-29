@@ -31,3 +31,10 @@
 1.8 [src*='cdn' i]{
     color : red;
 } => src 값 중에 cdn을 찾는데 대소문자를 구분하지 않는다. (i의 기능 => 대소문자 무시하라)
+
+
+2. Styling
+button => block 요소이지만 width을 100%차지 하지는 않는다.
+input과 button의 font는 자동으로 상속되지 않는다. 
+
+
