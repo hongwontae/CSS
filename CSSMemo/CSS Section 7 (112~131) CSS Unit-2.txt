@@ -1,0 +1,45 @@
+1. min-width/height and max-width/height
+max-width => 해당 요소가 value로 지정한 크기를 넘어가지 않도록 한다.
+min-width => 해당 요소가 value로 지정한 크기보다 작아지지 않게한다.
+
+
+2. em
+정의 : em은 부모의 font-size을 받아서 동적 계산해주는 단위이다.
+
+특징
+2-1. em의 부모에 font-size가 없다면 거슬러올라가서 나올 떄 까지 찾는다. 
+=> html element는 font-size 16px을 갖고 있다.
+2-2. font-size = n...px이 나온다면 자식은 그 값을 가지고 em처리를 한다.
+(html 요소가 16px이고 자식의 직계부모가 20px이라면 자식의 font-size em 처리 우선사항은 가까운 순서부터이다.)
+2-3. em은 상속되는 단위이다.
+
+
+3. rem
+정의 : rem의 계산 기준은 html 요소의 font-size이다.
+
+특징
+3-1. 해당 html font-size는 바꿀 수 있고 각 환경마다 다르다.
+3-2. 1rem => 16px/ 2rem => 32px
+3-3. => 브라우저 기본 폰트 16px
+    => html {
+    font-size : 16px
+    } => CSS default value이다.
+3-4. rem은 무조건 html 요소의 font-size을 기반으로 값을 생성한다. (em과 다름)
+
+(em과 rem은 font만의 unit아니다. 숫자 값이 필요한 모든 곳에 사용가능)
+
+
+4. 뷰포트 단위 vw/vh
+vw => viewport width/ wh => viewport height
+
+vmin => 웹 브라우저 너비와 높이 중 더 작은 값을 기준으로 크기가 결정된다.
+vmax => 웹 브라우저 너비, 높이 중 더 큰 값을 기준으로 영역의 크기가 결정된다.
+
+
+5. 올바른 단위 선택하기
+rem, vh-vw, %을 주로 사용한다.
+
+
+
+
+
