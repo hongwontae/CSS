@@ -37,5 +37,13 @@
 
 
 ## Step-7 CSS Unit
-[Step7-Link](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-7-Unit)
+[Step7-Link](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-7-Unit)\
+[Step7-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%207%20(112~131)%20CSS%20Unit-2.txt)\
+[CSS-unit-Pratice](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-Test/Unit)
+---
+
+## Step-9 CSS media
+[Step9-Link](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-9-media-meta)\
+[Step-9-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%209%20(143~161)%20CSS%20%40media-meta.txt)\
+[CSS-media-Practice](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-Test/media/mediaTest.css)
 ---
