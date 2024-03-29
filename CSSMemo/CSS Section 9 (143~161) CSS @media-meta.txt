@@ -1,0 +1,45 @@
+1. 브라우저 => 모바일
+아무것도 설정하지 않았을 떄 브라우저 크기보다 모바일 크기가 작음에도 불구하고 
+화면이 깨지지 않은채 웹사이트를 그대로 모바일에 밀어넣는다.
+
+
+2. <meta name="viewport" content="width=device-width, initial-scale=1.0, maxinum-scale=2.0 user-scalable=yes">
+name="viewport" => 기기의 브라우저 영역을 target
+content="width=device-width => 뷰포트의 페이지 너비를 설정 (기기 넓이 === 화면 너비)
+initial-scale => 초기 화면 비율 줌 레벨이다. 1.0이 default이다.
+user-scalable=yes => 유저의 줌 기능을 제어한다. => no로 바꾸면 줌 불가능
+maxinum-scale=2.0 => 사용자의 최대 줌 비율 정의
+
+=> 이 설정을 하면 viewport와 일반 브라우저 화면의 비율이 맞아떨어진다.
+
+
+3. @media
+정의 : 화면의 크기에 따라 CSS을 다르게 적용시키는 문법이다.
+
+특징
+3-1. @media(condition){
+    #product h1{
+        font-size : 3rem
+    }
+    # back-image-1{
+        background-position = 50% 25%
+    }
+}
+3-2. (min-width : n) => 최소 넓이가 n이 되거나 넘어가면 적용해라
+3-3. media 쿼리는 여러개 설정할 수 있다. 하지만 이 떄 순서를 지키지 않으면 원치 않은 효과를 얻을 수 있다.
+    60rem 조건이 40rem 조건보다 먼저 나오면 브라우저가 40rem이 되었을 떄나 60rem이 되었을 떄 40rem의 
+    media만 작동한다. 
+3-4. min-width을 사용해서 모바일 버전으로 개발하는 방향이 더 효율적인 방법이다.
+3-5. media-query는 가장 밑에 두는 것이 일반적인 법칙이다.
+
+
+4. breaking point
+mydevice.io에서 각종 기기에 대한 css width와 height을 알 수 있다.
+=> media query의 breaking point의 지침으로 사용할 수 있다.
+
+
+
+
+
+
+
