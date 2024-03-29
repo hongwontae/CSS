@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-title{
+    margin-bottom:0;
+    text-align: center;
+}
+
+.container-1{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contin{
+    text-align: center;
+}
+
+.show{
+    background-color: rgba(205, 34, 34, 0.5);
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+@media(max-width : 40rem){
+    .show{
+        display: block;
+        width: 100%;
+        margin: 1rem;
+    }
+}
