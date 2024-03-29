@@ -38,6 +38,14 @@ mydevice.io에서 각종 기기에 대한 css width와 height을 알 수 있다.
 => media query의 breaking point의 지침으로 사용할 수 있다.
 
 
+5. media-query 논리연산자와 가로/세로 구분
+media-query는 연산자 사용가능 
+and => 모두 다 만족
+, => 하나만 만족
+
+(orientation: portrait) => 세로 모드일 떄 css 적용
+(orientation: landscape) => 가로 모드일 떄 css 적용
+
 
 
 
