@@ -1,14 +1,63 @@
-body{
+body {
     background-color: black;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
-[type] {
-    color: brown;
-    font: inherit;
+.signup-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ff5454;
 }
 
-[type="date"] {
-    color: red;
+.signup-form {
+    padding: 1rem;
+}
+
+.signup-form label {
+    font-weight: bold;
+}
+
+.signup-form input,
+.signup-form select,
+.signup-form label {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.signup-form input:not([type="checkbox"]),
+.signup-form select{
+    font : inherit;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid red;
+}
+
+.signup-form input:focus,
+.signup-form select:focus{
+    outline: none;
+    background-color: #d8f3df;
+    border-color: #2ddf5c;
+}
+
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"]+label {
+    display: inline-block;
+    width: auto;
+}
+
+
+button[type="submit"] {
+    display: block;
+    margin-top: 1rem;
+}
+
+@media(min-width : 40rem) {
+
+    .signup-form {
+        margin: auto;
+        width: 40rem;
+    }
+
+
 }
