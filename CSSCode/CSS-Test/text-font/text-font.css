@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Myeongjo&family=Rubik+Scribble&display=swap');
+
+@font-face {
+    font-family: "Alisong";
+    src: url("RubikScribble-Regular.ttf");
+    /* 해당 폰트에 weight은 가져온 형식만 가지고 있다. 같은 폰트에 다른 weight을 가진 파일을 가져와야 인식한다. */
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
 
 
 body{
@@ -8,10 +20,21 @@ body{
 }
 
 .p1{
+    margin-top: 3rem;
     margin-bottom: 3rem;
-    font-family: "PT Sans Narrow";
+    font-family: "Alisong";
     font-size: 1.2rem;
     font-weight: 400;
     letter-spacing: 1px;
-    white-space: pre;
+}
+
+.p2{
+    text-decoration: underline wavy rgb(50, 9, 9);
+    text-shadow: 1px 1px 2px white;
+    margin-bottom: 3rem;
+    font-family: "PT Sans Narrow";
+}
+
+.p3{
+    font-family:  "Nanum Myeongjo";
 }
