@@ -1,0 +1,43 @@
+1. font-property
+1-1. font-size => 글자 크기
+
+1-2. font-variant => text-display 영향을 미친다.
+(small-caps => 모두 대문자로 바뀌지만 height은 변하지 않는다.)
+
+1-3. letter-spacing
+글자 간격을 설정한다. px이나 rem 단위를 사용한다.
+
+1-4. white-space
+글자 사이의 공백에 관한 프로퍼티
+normal => defalut/ width가 좁아지거나 넓어지면 글자의 공백을 기준으로 아래로 내려가거나 올라간다.
+nowrap => width을 무시하고 자기 자리를 지킨다.
+pre => nowrap과 비슷한 역할을 하지만 html의 줄바꿈을 인식하여 브라우저에도 적용한다.
+
+1-5. line height
+CSS-Test/image.png을 보면 leading이라는 영역이 위 아래로 존재하고 font-size 영역이 존재한다.
+leading 영역과 문자의 영역을 합친것을 line-height이라고 부른다.
+line-height의 기본값은 normal인데 이 떄 폰트 패밀리에 따라 leading의 영역이 각기 다르기 떄문에
+line-height을 지정해주는 것이 좋다.
+
+1-6. text-decoration, text-shadow
+text-decoration
+=> underline, overline, line-through(취소선)
+=> option으로 색깔/ dotted, wavy 등이 존재
+
+text-shadow(x축, y축, blur 처리(px이 올라갈수록 더욱 흐려짐), 색깔)
+
+
+2. font 속기법
+첫 번쨰 값으로 font-size, 두 번쨰 값으로 font-family이고 필수적으로 값을 주어야 한다.
+font-weight은 font-size 앞에 위치해야 한다.
+font-variant는 font-weight 앞에 위치해야 한다.
+font-style은 font-variant 앞에 위치해야한다.
+line-height은 font-size 뒤에 위치해야 하고 /가 앞에 붙어야 한다.
+
+=> italic samll-caps 700 1.2rem "Roboto" sans-serif
+
+
+
+
+
+
