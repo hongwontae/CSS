@@ -77,6 +77,18 @@ margin을 준다 해도 각 요소가 배치을 벗어나지 않는다. 영역 �
 9-3. gap => 행과 열 사이의 공백을 정의한다. gap : row column
 
 
-10. 
+10. grid-template-areas/ grid-area
+grid-template-areas를 통해 grid-container에 각 셀에 이름을 붙여준다.
+col=4/ row=3 => "header header header header"
+                "side side main main"
+                "footer footer footer footer";
+
+grid-item에서 grid-area의 value로 부모에서 정의한 areas의 이름을 넣는다.
+areas의 정의된 영역을 grid-item이 가져간다.
+
+
+
+
+
 
 
