@@ -33,8 +33,12 @@ body{
     text-shadow: 1px 1px 2px white;
     margin-bottom: 3rem;
     font-family: "PT Sans Narrow";
+    width: 500px;
+    margin: auto;
 }
 
 .p3{
     font-family:  "Nanum Myeongjo";
+    white-space: nowrap;
+    width: 500px;
 }
