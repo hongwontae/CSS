@@ -26,6 +26,7 @@ dirction : column (nowrap)
 
 => direction은 기본축을 정하는 프로퍼티인 것이다.
 => align-item의 default stretch가 아니라면 w-h은 정의된만큼, 컨텐츠만큼 차지한다.
+    (flex을 사용할 떄는 element의 w-h을 정의하는 것이 속 편하다.)
 
 wrap
 1. wrap을 사용하면 컨테이너 박스에서 item이 width, height을 표현할 수 없을 떄 밑으로 내려간다.
