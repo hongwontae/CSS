@@ -1,6 +1,0 @@
-1. Flex와 z-index
-flexbox에는 z-index을 추가할 수 있다. 
-(static 요소임에도 불구하고 작동하는 것이다.)
-
-
-2. 
