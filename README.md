@@ -51,3 +51,23 @@
 [media-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%209%20(143~161)%20CSS%20%40media-meta.txt)\
 [media-Practice](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-Test/media/mediaTest.css)
 ---
+
+## Step-10 CSS attribute-selector and Form Styling
+[attribute-selector-Link](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-10-form)\
+[attribute-selector-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2010%20(162~173)%20CSS-Form%20and%20Attribute-Selector.txt)\
+[attribute-selector-Pratice](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-Test/attribute-selector)
+---
+
+## Step-11 CSS font-text
+[font-text-Link](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-11-Text-Font)\
+[font-text-Memo-1](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2011%20(174~191)%20CSS%20Text-Font-1.txt)\
+[font-text-Memo-2](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2011%20(174~191)%20CSS%20Text-Font-2.txt)\
+[font-text-Pratice](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-Test/text-font)
+---
+
+## Step-12 CSS flex
+[flex-Link](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-12-flex)\
+[flex-Memo-1](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2012-1(192~204)%20CSS%20Flex-1.txt)\
+[flex-Memo-2](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2012-2(205~213)%20CSS%20Flex-2.txt)\
+[flex-Pratice](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-Test/flex)
+---
