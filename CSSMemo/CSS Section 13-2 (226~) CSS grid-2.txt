@@ -58,7 +58,18 @@ container에서 grid-template-column(row)을 정의하고 item에서 이를 활�
 직속 자식이긴 한데 아무것도 정의 x => grid-auto을 따른다. => 암시적 그리드
 
 
-7.
+7.auto-fill/ auto-fit
+auto-fill => 현재 행을 최대한 많은 항목으로 채운 다음에 줄바꿈하도록 한다. (새로운 행)
+auto-fit => 전체 행을 채울 만큼 item이 충분하지 않을 떄 사용한다. (가운데 배치) and (웹 페이지 너비 줄어들면
+줄바꿈)
+
+
+8. grid +
+8-1. grid는 flex처럼 중첩되어 사용할 수 있다.
+8-2. 1차원 배치는 flexbox, 다차원 배치는 grid를 사용하는 것이 좋다.
+
+
+
 
 
 
