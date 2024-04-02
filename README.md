@@ -12,20 +12,20 @@
 ---
 
 ## Step-2. Inline/block/Inline-block and 가상 클래스-가상 요소
-[Step2-Link-HTML](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-2-inline-block-basicProperty/index.html)\
-[Step2-Link-CSS](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-2-inline-block-basicProperty/main.css)\
-[Step3-Link-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%202%20(25~50)%20inline-block-BasicProperty.txt)
+[Link-HTML](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-2-inline-block-basicProperty/index.html)\
+[Link-CSS](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-2-inline-block-basicProperty/main.css)\
+[Link-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%202%20(25~50)%20inline-block-BasicProperty.txt)
 ---
 
 ## Step-3 Seletor + 
-[Step3-Link-HTML](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-3-Seletor-Property-values/more-on-selectors-1-start-code/index.html)\
-[Step3-Link-CSS](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-3-Seletor-Property-values/more-on-selectors-1-start-code/main.css)\
-[Step3-Link-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%203%20(51~58)%20Seletor-Property-values.txt)
+[Link-HTML](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-3-Seletor-Property-values/more-on-selectors-1-start-code/index.html)\
+[Link-CSS](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-3-Seletor-Property-values/more-on-selectors-1-start-code/main.css)\
+[Link-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%203%20(51~58)%20Seletor-Property-values.txt)
 ---
 
 ## Step-4 Project1, CSS Properties...
-[Step4-Link](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-4-Project1)\
-[Step4-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%204%20(59~79)%20Project1.txt)
+[Link](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-4-Project1)\
+[Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%204%20(59~79)%20Project1.txt)
 ---
 
 ## Step-5 Position Property
@@ -74,5 +74,7 @@
 
 ## Step-13 CSS grid
 [Grid-Summary](https://github.com/hongwontae/CSS/blob/main/CSSCode/CSS-Test/grid/grid-summary.txt)\
-[Gird-Pratice](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-Test/grid)
-
+[Gird-Pratice](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-Test/grid)\
+[Grid-Memo-1](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2013-1%20(214~225)%20CSS%20grid-1.txt)\
+[Grid-Memo-2](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2013-2%20(226~241)%20CSS%20grid-2.txt)
+---
