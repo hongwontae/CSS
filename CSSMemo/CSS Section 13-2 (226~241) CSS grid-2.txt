@@ -1,10 +1,10 @@
 1. display : grid일 떄 web page의 적용
 고정되거나 (fiexed) 문서 대열에서 이탈한 요소는 그리드이 일부가 아니다.
-=> 확인해봐야 한다. 이말이 맞는지
 
 
 2. fit-content
 정의 : 크기를 그리드 아이템(Item)이 포함하는 내용(Contents) 크기에 맞춘다.
+=> fit-content는 option 같은 것이다.
 
 
 3. 그리드 요소 배치 프로퍼티
