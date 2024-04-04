@@ -1,5 +1,7 @@
+@import "variable-1";
+
 .char-highlight {
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: $size-tiny * 7;
   color: #521751;
 }

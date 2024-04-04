@@ -65,3 +65,12 @@ $colors : (main : value, secondary : value)
 border-color : map-get($colors, main) => map-get이라는 함수를 통해 해당 key의 value를 가져온다.
 
 
+7. 내장 함수
+SASS의 기능을 사용할 떄 내장 함수를 사용 => lighten() => 색상 함수
+url => https://sass-lang.com/documentation/modules/
+
+
+
+
+
+

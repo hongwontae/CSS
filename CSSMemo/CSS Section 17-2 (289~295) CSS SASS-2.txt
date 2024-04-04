@@ -1,0 +1,55 @@
+1. 사칙연산
+SASS는 VALUE에 사칙연산을 적용시킬 수 있다. (+,-,/,*)
+
+
+2. better import, partials
+@import는 sass가 아닌 일반 css 구문에서도 사용 가능하다.
+=> 파일이 하나로 합쳐지는 것이 아니다. http 요청은 import 파일도 한다.
+
+sass에서 import 사용가능하다.
+sass에서 일반 css 파일을 가지고 오면 변환되는 css 파일은 그대로 @import하면 css를 가져와버린다.
+sass에서 csss,sass 파일을 import하면 변환되는 css 파일로 모두 합쳐지게 된다.
+*** 파일 분할을 통해 변수나 서브 css를 분리하여 main에 import하는 방식을 사용한다.
+
+
+3. SASS media-query
+media-query도 중첩 선택자처럼 사용할 수 있다.
+
+ex) .intro{
+    css ccdoe...
+
+    media(min-width : 40rem){
+        font-size : 4rem
+    }
+}
+
+
+4. 상속 이해하기
+sass 내에서 임의의 클래스와 css 규칙을 만든다.
+이를 구현하고 싶은 곳의 선택자 중괄호 안에서 @extend.className => 적용한다.
+=> 해당 선택자안에서 해당 css가 구현된다.
+
+
+5. mixin
+mixin은 CSS 선택자와 규칙의 틀을 만드는 것이다.
+
+5-1. @mixin name(){
+    key : value
+} 
+=> 정적 mixin
+=> @include name(); 
+
+
+@mixin name($width){
+    @media(min-width : $width){
+        @content => mixin을 사용한 곳에 code가 존재한다면 받아들여라
+    }
+} 
+=> 동적 mixin
+=> @include name($ 규정){
+    (@content 규정)
+}
+
+
+6. & 연산자
+&을 사용하면 중첩이 아니라 연결이 된다. => 요소 클래스에 적합하다.
