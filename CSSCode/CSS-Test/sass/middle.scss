@@ -1,0 +1,23 @@
+@import "variable-1";
+
+
+.main-box{
+    display: flex;
+    text-align: center;
+    min-height: calc(100vh - 8rem - 3.5rem);
+
+    .section-box{
+        width: 30%;
+        margin: auto;
+    }
+
+    @media(max-width : 40rem){
+        display: inline-block;
+        margin: auto 2rem;
+        
+        .section-box{
+            width: 100%;
+        }
+    }
+
+}

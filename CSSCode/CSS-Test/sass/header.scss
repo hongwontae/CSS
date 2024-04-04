@@ -1,0 +1,22 @@
+@import "variable-1";
+
+.header{
+
+    text-align: center;
+
+    .header-title{
+        color: white;
+        margin: 2rem auto;
+    }
+
+    .header-p-box{
+        border: 1.4px solid map-get($color, white);
+        width: 80%;
+        margin: auto;
+
+        .h-literal{
+            color: map-get($color , white);
+            font-size: $size-default;
+        }
+    }
+}

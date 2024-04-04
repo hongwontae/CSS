@@ -1,0 +1,21 @@
+@import "variable-1";
+
+@import "header.scss";
+
+@import "middle.scss";
+
+@import "footer.scss";
+
+
+body{
+    font : {
+        size: $size-default;
+        family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    margin: 0;
+    background-color: map-get($color, black);
+    color: map-get($color, white);
+}
+
+
+
