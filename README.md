@@ -83,3 +83,20 @@
 [Transform-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2014%20(242~253)%20CSS%20Transform.txt)\
 [Transform-Pratice](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-Test/transform)
 ---
+
+## Step-15 CSS transition and animation
+[Transition-Animation-Memo](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2015%20(254~265)%20CSS%20Transition%20and%20Amination.txt)\
+[Transition-Anmation-Pratice](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-15-transition-animation)
+---
+
+## Step-16 CSS modern (polyfil, @supports, vendor-prefixes..)
+[What-is-Modern-CSS?](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2016%20(266~277)%20CSS%20Modern.txt)
+---
+
+## Step-17 CSS sass
+[SASS-Memo-1](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2017-1%20(278~288)%20CSS%20SASS-1.txt)\
+[SASS-Memo-2](https://github.com/hongwontae/CSS/blob/main/CSSMemo/CSS%20Section%2017-2%20(289~295)%20CSS%20SASS-2.txt)\
+[SASS-Pratice](https://github.com/hongwontae/CSS/tree/main/CSSCode/CSS-Test)
+---
+
+
