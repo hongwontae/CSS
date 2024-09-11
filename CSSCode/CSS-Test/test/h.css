@@ -1,0 +1,10 @@
+body {
+    background-color: brown;
+    color: wheat;
+}
+
+a:hover,
+a:active{
+    background-color: white;
+    color : cornflowerblue
+}
