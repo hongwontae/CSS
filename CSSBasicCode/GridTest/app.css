@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}

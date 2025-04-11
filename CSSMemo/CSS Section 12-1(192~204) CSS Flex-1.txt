@@ -12,27 +12,38 @@
 2. flex-direction, flex-wrap
 display : flex가 적용되면 flex-direction : row;, flex-wrap : nowrap이 default로 설정된다.
 
+** flex-shrink
+=> 부모의 메인 축(넓이, 높이) 보다 자식들의 메인 축이(넓이, 높이) 더 크면 자식 요소들을 자동으로 줄입니다.
+=> 기본값은 1입니다. 0으로 설정하면 너비가 줄어들지 않고 부모를 뚫어버립니다.
+
+**  align-items
+=> 기본값은 stretch입니다.
+=> row일 떄 세로 축, col일 떄 가로 축에 영향을 줍니다.
+=> 어떤 영향? : align-items가 stretch일 떄 부모의 h,w을 따라가는 현상입니다. 
+
 dirction : row (nowrap)
-1. width와 height은 정의한 w-h만큼 차지한다.
-2. width을 정의하지 않으면 컨텐츠 크기만큼 차지한다. height을 정의하지 않으면 컨테이너 높이를 따라간다.
-(height이 정의되지 않으면 컨텐츠 크기만큼 차지한다.)
-3. 웹페이지가 작아지면 컨텐츠 width만큼만 자동으로 줄여주고 더 줄이려고 하면 무시한다.
+1. item의 컨텐츠가 존재하지 않으면 요소가 보이지 않습니다. 즉, width과 컨텐츠가 없다면 보이지 않습니다.
+(부모의 width과 관련 없습니다.)
+2. item h을 설정하지 않으면 자식 요소가 보이지 않으나 부모에 h을 설정하면 stretch로 부모의 h을 따라갑니다.
+(만약 둘 다 없다면 컨텐츠 높이 만큼 따라 갑니다.)
+3. 자식의 넓이가 부모의 넓이보다 많다면 자식 넓이들은 부모 넓이에 벗어나지 않으려고 동일하게 줄어듭니다.
+(felx-shrink가 1이기 때문입니다.)
+
 
 dirction : column (nowrap)
-1. width나 height은 정의한 w-h만큼 차지한다.
-2. width을 정의하지 않으면 100%, height은 컨텐츠 높이 만큼 차지한다.
-3. 웹페이지을 줄이면 w을 정의한 요소는 자리를 지키지만 w을 정의하지 않은 요소들은 컨텐츠 크기를
-넘어서도 줄여진다.
+1. item이 높이가 없고 컨텐츠도 없다면 보이지 않습니다.
+(부모의 h과 관련 없습니다.)
+2. item의 width을 설정하지 않으면 부모의 width을 따라갑니다. stretch 속성 떄문입니다.
+(만약 둘 다 없다면 컨텐츠 넓이를 따라갑니다. 근데 부모는 block일 떄 100%를 가지는 속성으로 전체를 차지하는 경우가 많습니다.)
+3. 자식들의 높이가 부모의 높이보다 높다면 자식 높이들은 부모 높이에 벗어나지 않으려고 동일하게 줄어듭니다.
+(flex-shrink 1)
 
-=> direction은 기본축을 정하는 프로퍼티인 것이다.
-=> align-item의 default stretch가 아니라면 w-h은 정의된만큼, 컨텐츠만큼 차지한다.
-    (flex을 사용할 떄는 element의 w-h을 정의하는 것이 속 편하다.)
 
 wrap
-1. wrap을 사용하면 컨테이너 박스에서 item이 width, height을 표현할 수 없을 떄 밑으로 내려간다.
-2. 1일 떄 width과 height은 row 법칙을 따른다.
-
-flex-flow => direction과 wrap 속기법 프로퍼티
+1. 메인 축 부모의 넓이나 높이를 자식들의 합이 더 커질 떄 자동으로 다음 메인 축으로 자식들이 배치되는 현상입니다.
+2. 하지만 shrink가 0가 되는 건 아닙니다.
+3. 부모가 900px이고 자식이 300px일 떄 부모가 850px 일 때는 shrink가 동작할 수 있고 더 줄어들면 wrap이 발동합니다.
+(3같은 동작은 자동으로 실행됩니다.)
 
 
 3. 기본 축과 교차 축
@@ -50,22 +61,9 @@ flex-direciton : column-reverse
 교차축 => 요소가 정렬되는 두 번쨰 기준
 
 
-4. align-items, justify-content
-
-justify-content 
-1. 기본축을 참조한다.
-
-align-items
-1. 교차축을 참조한다.
-2. flex-start : 교차축 처음
-3. flex-end : 교차축 마지막
-4. center : 교차축 처음
-5. baseline : 문자의 baseline에 맞춰 정렬 (flex-start)
-
-
-5. align-content
-5-1. 두 줄부터 사용하는데 의미가 있기에 flex-wrap : wrap인 상태에서 사용
-5-2. 라인이 두 줄 이상이 되면 교차축에 영향을 주는 프로퍼티이다.
+4. justify-content, align-items
+=> 메인 축 정렬과 세로 축 정렬을 의미합니다.
+=> align-items을 설정하면 stretch 설정이 사라집니다.
 
 
 
