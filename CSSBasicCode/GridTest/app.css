@@ -3,13 +3,15 @@ body {
 }
 
 .box {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    width:  50%;
+    margin : auto;
 }
 
 .item {
     background-color: white;
-    height: 100px;
-    width: 100px;
+    width: 100%;
+    min-width: 0; 
 }
