@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+.main-title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.sub-box {
+    border: 1px white solid ;
+    text-align: center;
+    min-width: 50%;
+}
+
+.p {
+    border: 1px white solid;
+    padding: 5rem;
+    text-align: center;
+    width: 1000px;
+}
+.c {
+    border: 1px white solid;
+    width: 20%;
+    min-width: 300px;    
+}
