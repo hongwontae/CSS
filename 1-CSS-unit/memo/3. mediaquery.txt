@@ -1,0 +1,36 @@
+1. Medua Query
+1-1. 디바이스의 화면크기, 해상도, 방향 등 특정 조건에 따라 CSS 스타일을 다르게 적용할 수 있는 기능입니다.
+
+
+2. 미디어 기본 문법 구조
+=> @media media-type and (condition) {
+    ...
+}
+2-1. 구성 요소
+1. @media : 미디어 쿼리를 시작할 떄 사용합니다.
+
+2. 미디어 타입
+    2-1. all : 모든 장치(기본값)
+    2-2. screen : 컴퓨터, 테블릿, 스마트폰 화면
+    2-3. print : 인쇄 미리보기, 인쇄 장치
+    2-4. speech : 화면 읽기 장치 (음성 합성기)
+
+3. 미디어 특성 조건
+    3-1. max-width
+    3-2. min-width
+    3-3. max-height
+    3-4. min-height
+    3-5. orientation : portrait(세로)/ landscape(가로)
+    3-6. perfers-color-scheme : dark, light 모드 여부
+    3-7. resolution : 해상도 조건
+
+4. 조건 연결 방법
+    4-1. and 연결 (and 조건입니다.)
+    => @media screen and (min-width: 500px) and (max-width: 1000px)
+    4-2. , 연결 (or 조건입니다.)
+    => @media (max-width: 600px), (orientation: portrait)
+
+
+3. 핵심개념
+3-1. screen 타입은 요소의 크기가 아니라 뷰포트의 크기를 의미합니다.
+3-2. min-width : 400px이라는 조건이 있으면 뷰포트 넓이가 400px을 넘으면 내부에서 정의한 CSS를 적용한다는 이야기입니다.
